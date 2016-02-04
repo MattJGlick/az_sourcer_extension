@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+
+  <script src="login.js"></script>
+
+  <title></title>
+</head>
+<body>
+
+  <div class="container">
+    <div class="page-header">
+      <h1>Amazon API Credentials</h1>
+    </div>
+    <div class="panel-body">
+      <form class="form-horizontal" id="settings_form">
+        <div class="form-group">
+          <label for="merchant_id" class="col-sm-2 control-label">Merchant ID</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="merchant_id" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="marketplace_id" class="col-sm-2 control-label">Marketplace ID</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="marketplace_id" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="access_key_id" class="col-sm-2 control-label">Access Key ID</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="access_key_id" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label for="secret_access_key" class="col-sm-2 control-label">Secret Access Key</label>
+          <div class="col-sm-10">
+            <input type="text" class="form-control" id="secret_access_key" required>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <div class="col-sm-offset-2 col-sm-10">
+            <button type="submit" value="setting_submit" class="btn btn-default" id="setting_submit">Login</button>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+</body>
+</html>
